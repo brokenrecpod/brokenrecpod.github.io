@@ -10,7 +10,23 @@
                 <div class="albumArtwork">
                     <img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/Brokencyde-ImNotAFanButTheKidsLikeIt.jpeg"/>
                 </div>
+                <div class="albumDesc">
+                    <h4>
+                        I'm Not a Fan, But the Kids Like It
+                    </h4>
+                    <h5>
+                        by Brokencyde
+                    </h5>
+                </div>
             </div>
         <h2>Beyond 20</h2>
     </body>
 </html>
+
+<style type="text/css">
+    .albumEntry { display: flex; flex-direction: row; }
+    @media (max-width: 800px) { .albumEntry { flex-direction: column; } }
+    .albumRank { flex: 10%; }
+    .albumArtwork { flex: 30%; }
+    .albumDesc { flex: 60%; }
+</style>
