@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-  </head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    </head>
     <body>
         <h1>The Chart</h1>
         <h2>The Flop 20</h2>
@@ -41,9 +41,7 @@
                     </h4>
                 </div>
                 <div class="albumLink">
-                    <div class="linkArrow">
-                      &#187;
-                  </div>
+                    &#187;
                 </div>
             </div>
         <h2>Beyond 20</h2>
@@ -51,8 +49,9 @@
 </html>
 
 <style type="text/css">
-  h1, h2, h3, h4, .albumEntry {font-family: "Open Sans";}
-    .albumEntry { display: flex; flex-direction: row; border: 1px solid black; border-radius: 25px; margin-bottom: 0.4em; }
+    h1, h2, h3, h4, .albumEntry { font-family: "Open Sans"; }
+    h1, h2 { text-align: center; }
+    .albumEntry { display: flex; flex-direction: row; align-items: center; border: 1px solid black; border-radius: 25px; margin-bottom: 0.4em; }
     @media (max-width: 800px) { .albumEntry { flex-direction: column; } }
     .albumEntry:nth-of-type(1) { background: #ffd700; }
     .albumEntry:nth-of-type(2) { background: #c0c0c0; }
@@ -63,6 +62,5 @@
     .albumArtwork { flex: 15%; }
     .albumArtwork img { width: 150px; }
     .albumDesc { flex: 65%; padding: 0 1em; }
-      .albumLink { flex: 10%; background: green; text-align: center; font-size: 1.4em; font-weight: bold; }
-  .albumLink .linkArrow { position: relative; left: 5%; top: 50px; }
+    .albumLink { flex: 10%; background: green; text-align: center; font-size: 1.4em; font-weight: bold; }
 </style>
