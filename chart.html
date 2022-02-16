@@ -18,15 +18,20 @@
                         by Brokencyde
                     </h5>
                 </div>
+                <div class="albumLink">
+                    &#187;
+                </div>
             </div>
         <h2>Beyond 20</h2>
     </body>
 </html>
 
 <style type="text/css">
-    .albumEntry { display: flex; flex-direction: row; }
+    .albumEntry { display: flex; flex-direction: row; align-items: center; }
     @media (max-width: 800px) { .albumEntry { flex-direction: column; } }
-    .albumRank { flex: 10%; }
-    .albumArtwork { flex: 30%; }
-    .albumDesc { flex: 60%; }
+    .albumEntry:nth-of-type(1) { background: yellow; }
+    .albumRank { flex: 10%; text-align: center; }
+    .albumArtwork { flex: 10%; }
+    .albumArtwork img { width: 100%; }
+    .albumDesc { flex: 80%; }
 </style>
