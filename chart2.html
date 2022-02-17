@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+      </style>
     </head>
     <body>
         <h1>The Chart</h1>
@@ -29,18 +31,28 @@
                 <div class="albumLink">+</div>
             </div>
     
+            <div class="chartEntry">
+                <div class="albumRank">4</div>
+                <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/TrueSymphonicRockestra-ConcertoInTrueMinor.jpeg"/></div>
+                <div class="albumName"><h3>Concerto in True Minor</h3><h4>by the True Symphonic Rockestra (2008)</h4></div>
+                <div class="albumLink">+</div>
+            </div>
+    
         </div>
   
   <style>
-    h1, h2, h3, h4, .albumEntry { font-family: "Open Sans"; }
+    h1, h2, h3, h4, .chartEntry { font-family: "Open Sans"; }
     h1, h2 { text-align: center; }
+    h1 { font-weight: 800; }
+    h2 { font-weight: 600; }
+    h3, h4, .chartEntry { font-weight: 400; }
     body { background: #eee; }
     .chartTable { display: flex; flex-direction: column; margin: auto; width: 75%; background: white; }
     .chartEntry { display: flex; flex-direction: row; }
     .chartEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
-    .albumRank, .albumLink { flex: 0 0 4em; display: flex; align-items: center; justify-content: center; background: black; color: white; border-right: 1px solid #eee;  }
-    .albumImage { flex: 0 0 6.5em; display: flex; align-items: center; justify-content: center; }
-    .chartEntry:nth-of-type(1) .albumImage { flex: 0 0 10em; }
+    .albumRank, .albumLink { flex: 0 0 4em; display: flex; align-items: center; justify-content: center; background: black; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
+    .albumImage { flex: 0 0 7em; display: flex; align-items: center; justify-content: center; }
+    .chartEntry:nth-of-type(1) .albumImage { flex: 0 0 14em; }
     .albumImage img { width: 100%; }
     .albumName { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
     .albumName h3 { font-size: 1.4em; margin-block-end: 0; }
