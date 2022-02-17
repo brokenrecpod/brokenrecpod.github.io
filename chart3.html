@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+    </style>
+  </head>
+  
+  <body>
+    <div class="heading">
+      <h1>The Chart</h1>
+    </div>
+    
+    <h2>The Flop 20</h2>
+    
+    <div class="chartTable">
+      
+      <div class="chartEntry">
+        <div class="albumRank">1</div>
+        <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/Brokencyde-ImNotAFanButTheKidsLikeIt.jpeg"/></div>
+        <div class="albumName"><h3>I'm Not a Fan, But the Kids Like It!</h3><h4>by Brokencyde (2009)</h4></div>
+        <div class="albumLink">+</div>
+      </div>
+      
+      <div class="chartEntry">
+        <div class="albumRank">2</div>
+        <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/CrazyFrog-CrazyHits.jpeg"/></div>
+        <div class="albumName"><h3>Crazy Frog Presents Crazy Hits</h3><h4>by Crazy Frog (2005)</h4></div>
+        <div class="albumLink">+</div>
+      </div>
+      
+      <div class="chartEntry">
+        <div class="albumRank">3</div>
+        <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/UncleKracker-DoubleWide.jpeg"/></div>
+        <div class="albumName"><h3>Double Wide</h3><h4>by Uncle Kracker (2000)</h4></div>
+        <div class="albumLink">+</div>
+      </div>
+      
+      <div class="chartEntry">
+        <div class="albumRank">4</div>
+        <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/TrueSymphonicRockestra-ConcertoInTrueMinor.jpeg"/></div>
+        <div class="albumName"><h3>Concerto in True Minor</h3><h4>by the True Symphonic Rockestra (2008)</h4></div>
+        <div class="albumLink">+</div>
+      </div>
+    
+    </div>
+    
+  </body>
+</html>
+
+<style>
+  body { background: #eee; margin: 0; }
+  .heading { display: flex; width: 100vw; justify-content: left; align-items: center; min-height: 250px; background: white; background-image: url('https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/header-hero-wide.jpg'); background-repeat: no-repeat; background-position: top right; background-size: contain; }
+  h1, h2, h3, h4, .chartEntry { font-family: "Open Sans"; }
+  h2 { text-align: center; font-weight: 600; }
+  h1 { font-size: 4em; margin-left: 1em; font-weight: 800; }
+  h3, h4, .chartEntry { font-weight: 400; }
+  .chartTable { display: flex; flex-direction: column; margin: auto; width: 75%; background: white; }
+  .chartEntry { display: flex; flex-direction: row; }
+  .chartEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
+  .albumRank, .albumLink { flex: 0 0 125px; display: flex; align-items: center; justify-content: center; background: black; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
+  .albumImage { flex: 0 0 125px; display: flex; align-items: center; justify-content: center; }
+  .chartEntry:nth-of-type(1)
+  .albumImage { flex: 0 0 14em; }
+  .albumImage img { width: 100%; }
+  .albumName { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
+  .albumName h3 { font-size: 1.4em; margin-block-end: 0; }
+  .albumName h4 { font-size: 1.1em; margin-block-start: 0.4em; }
+  .albumName h3 { font-style: italic; }
+</style>
