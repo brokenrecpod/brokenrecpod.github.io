@@ -1,49 +1,37 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
-    </head>
-    <body>
-        <h1>The Chart</h1>
-        <h2>The Flop 20</h2>
-        <div class="chartTable">
+<div class="chartTable">
   
-            <div class="chartEntry">
-              <div class="albumRank">1</div>
-              <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/Brokencyde-ImNotAFanButTheKidsLikeIt.jpeg"/></div>
-              <div class="albumName"><h3>I'm Not a Fan, But the Kids Like It!</h3><h4>by Brokencyde (2009)</h4></div>
-              <div class="albumLink">+</div>
-            </div>
-            
-            <div class="chartEntry">
-              <div class="albumRank">2</div>
-              <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/CrazyFrog-CrazyHits.jpeg"/></div>
-              <div class="albumName"><h3>Crazy Frog Presents Crazy Hits</h3><h4>by Crazy Frog (2005)</h4></div>
-              <div class="albumLink">+</div>
-            </div>
-            
-            <div class="chartEntry">
-              <div class="albumRank">3</div>
-              <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/UncleKracker-DoubleWide.jpeg"/></div>
-              <div class="albumName"><h3>Double Wide</h3><h4>by Uncle Kracker (2000)</h4></div>
-              <div class="albumLink">+</div>
-            </div>
-            
-          </div>
-        <h2>Beyond 20</h2>
-    </body>
-</html>
-
-<style type="text/css">
+    <div class="chartEntry">
+      <div class="albumRank">1</div>
+      <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/Brokencyde-ImNotAFanButTheKidsLikeIt.jpeg"/></div>
+      <div class="albumName"><h3>I'm Not a Fan, But the Kids Like It!</h3><h4>by Brokencyde (2009)</h4></div>
+      <div class="albumLink">+</div>
+    </div>
+    
+    <div class="chartEntry">
+      <div class="albumRank">2</div>
+      <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/CrazyFrog-CrazyHits.jpeg"/></div>
+      <div class="albumName"><h3>Crazy Frog Presents Crazy Hits</h3><h4>by Crazy Frog (2005)</h4></div>
+      <div class="albumLink">+</div>
+    </div>
+    
+    <div class="chartEntry">
+      <div class="albumRank">3</div>
+      <div class="albumImage"><img src="https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/UncleKracker-DoubleWide.jpeg"/></div>
+      <div class="albumName"><h3>Double Wide</h3><h4>by Uncle Kracker (2000)</h4></div>
+      <div class="albumLink">+</div>
+    </div>
+    
+  </div>
+  
+  <style>
     body { background: #eee; }
     .chartTable { display: flex; flex-direction: column; margin: auto; width: 75%; background: white; }
     .chartEntry { display: flex; flex-direction: row; }
     .chartEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
-    .albumRank, .albumLink { flex: 1; display: flex; align-items: center; justify-content: center; background: black; color: white; border-right: 1px solid #eee;  }
-    .albumImage { flex: 2; display: flex; align-items: center; justify-content: center; }
+    .albumRank, .albumLink { flex: 0 0 4em; display: flex; align-items: center; justify-content: center; background: black; color: white; border-right: 1px solid #eee;  }
+    .albumImage { flex: 0 0 6.5em; display: flex; align-items: center; justify-content: center; }
+    .chartEntry:nth-of-type(1) .albumImage { flex: 0 0 10em; }
     .albumImage img { width: 100%; }
     .albumName { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
     .albumName h3 { font-style: italic; }
-    h1, h2, h3, h4, .chartEntry { font-family: "Open Sans"; }
-    h1, h2 { text-align: center; }
-</style>
+  </style>
