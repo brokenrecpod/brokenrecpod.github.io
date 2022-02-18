@@ -24,7 +24,7 @@ h4 { font-weight: 400; }
 
 .albumImage { flex: 0 0 125px; display: flex; align-items: center; justify-content: center; }
 
-.chartEntry:first-of-type .albumImage { flex: 0 0 250px; }
+.charts .chartEntry:first-of-type .albumImage { flex: 0 0 250px; }
 
 .albumImage img { width: 100%; }
 
