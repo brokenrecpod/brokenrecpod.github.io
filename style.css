@@ -2,6 +2,16 @@ body { background: #eee; margin: 0; margin-bottom: 4em; font-family: "Open Sans"
 
 .heading { display: flex; width: 100vw; justify-content: left; align-items: center; min-height: 250px; background: white; background-image: url('https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/header-hero-wide.png'); background-repeat: no-repeat; background-position: top right; background-size: cover; }
 
+.menu { display: flex; width: 100%; background: black; color: white; padding-top: 0.6em; padding-bottom: 0.6em; }
+
+.menuItem { flex: 1; justify-content: center; text-align: center; text-transform: uppercase; }
+
+.menuItem:not(:last-of-type) { border-right: 1px solid white; }
+
+.menuItem a { color: white; text-decoration: none; }
+
+.menuItem a:hover { font-weight: bold; }
+
 h1 { font-size: 4em; margin-left: 6vw; font-weight: 800; }
 
 h2 { font-size: 2em; text-align: center; font-weight: 600; }
