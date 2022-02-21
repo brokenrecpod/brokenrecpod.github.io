@@ -2,7 +2,7 @@ body { background: #eee; margin: 0; margin-bottom: 4em; font-family: "Open Sans"
 
 .heading { display: flex; width: 100vw; justify-content: left; align-items: center; min-height: 250px; background: white; background-image: url('https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/header-hero-wide.png'); background-repeat: no-repeat; background-position: top right; background-size: cover; }
 
-.menu { display: flex; width: 100%; background: black; color: white; padding-top: 0.6em; padding-bottom: 0.6em; }
+.menu { display: flex; width: 100%; background: black; color: white; padding-top: 0.6em; padding-bottom: 0.6em; position: sticky; top: 0; }
 
 .menuItem { flex: 1; justify-content: center; text-align: center; text-transform: uppercase; }
 
@@ -20,7 +20,7 @@ h3 { font-weight: 600; }
 
 h4 { font-weight: 400; }
 
-.topper { background: #1a48c4; color: white; width: 88%; margin: auto; margin-top: 2em; padding: 1em 0; }
+.topper { background: #1a48c4; color: white; width: 88%; margin: auto; margin-top: 2em; padding: 1em 0; position: sticky; top: 41px;}
 
 .topper h2 { letter-spacing: -0.05em; margin: 0; }
 
