@@ -32,17 +32,19 @@ h4 { font-weight: 400; }
 
 .albumRank, .albumLink, .statsRank { flex: 0 0 125px; display: flex; align-items: center; justify-content: center; background: black; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
 
-.albumImage, .statsInfoShort { flex: 0 0 125px; display: flex; align-items: center; justify-content: center; }
+.albumImage, .statsInfoShort, .statsInfoLong { display: flex; align-items: center; justify-content: center; }
+
+.albumImage, .statsInfoShort { flex: 0 0 125px; }
+
+.statsInfoShort, .statsInfoLong { background: #dddddd; }
+
+.statsInfoLong { flex: 0 0 250px; }
 
 .albumImage img { width: 100%; }
 
 .statsRank { font-size: 1.5em; }
 
-.statsInfoLong { flex: 0 0 250px; }
-
-.statsInfoShort, .statsInfoLong { background: #dddddd; }
-
-.statsDetail { margin-top: 1em; margin-bottom: 1.5em; }
+.statsDetail { margin-top: 1em; margin-bottom: 1.5em; margin-left: 1em; }
 
 .chartEntry .albumName { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
 
