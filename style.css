@@ -1,65 +1,37 @@
+/* GENERAL STYLING */
+
 body { background: #eee; margin: 0; margin-bottom: 4em; font-family: "Open Sans"; }
+h1 { font-size: 4em; margin-left: 6vw; font-weight: 800; }
+h2 { font-size: 2em; text-align: center; font-weight: 600; letter-spacing: -0.05em; margin: 0; }
+h3 { font-weight: 600; font-size: 1.4em; margin-block-end: 0; }
+h4 { font-weight: 400; font-size: 1.1em; margin-block-start: 0.4em; }
 
+/* HEADER STYLING */
 .heading { display: flex; width: 100vw; justify-content: left; align-items: center; min-height: 250px; background: white; background-image: url('https://raw.githubusercontent.com/brokenrecpod/brokenrecpod.github.io/main/header-hero-wide.png'); background-repeat: no-repeat; background-position: top right; background-size: cover; }
-
 .menu { display: flex; width: 100%; background: black; color: white; padding-top: 0.6em; padding-bottom: 0.6em; position: sticky; top: 0; }
-
 .menuItem { flex: 1; justify-content: center; text-align: center; text-transform: uppercase; }
-
 .menuItem:not(:last-of-type) { border-right: 1px solid white; }
-
 .menuItem a { color: white; text-decoration: none; }
-
 .menuItem a:hover { font-weight: bold; }
 
-h1 { font-size: 4em; margin-left: 6vw; font-weight: 800; }
-
-h2 { font-size: 2em; text-align: center; font-weight: 600; }
-
-h3 { font-weight: 600; }
-
-h4 { font-weight: 400; }
+/* TABLE STYLING */
 
 .topper { background: #1a48c4; color: white; width: 88%; margin: auto; margin-top: 2em; padding: 1em 0; }
-
-.topper h2 { letter-spacing: -0.05em; margin: 0; }
-
 .chartTable, .statsTable { display: flex; flex-direction: column; margin: auto; width: 88%; background: white; }
-
 .chartEntry, .statsEntry { display: flex; flex-direction: row; }
-
 .chartEntry:not(:last-of-type), .statsEntry:not(:last-of-type) { border-bottom: 1px solid #eee; }
-
 .albumRank, .albumLink, .statsRank { flex: 0 0 125px; display: flex; align-items: center; justify-content: center; background: black; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
-
 .albumImage, .statsInfoShort, .statsInfoLong { display: flex; align-items: center; justify-content: center; }
-
 .albumImage, .statsInfoShort { flex: 0 0 125px; }
-
 .statsInfoShort, .statsInfoLong { background: #dddddd; }
-
 .statsInfoLong { flex: 0 0 250px; }
-
 .albumImage img, .statsInfoShort img { width: 100%; }
-
 .statsRank { font-size: 1.5em; }
-
 .statsDetail { margin-top: 1em; margin-bottom: 1.5em; margin-left: 1em; }
-
-.chartEntry .albumName { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
-
-.albumName h3 { font-size: 1.4em; margin-block-end: 0; }
-
-.albumName h4 { font-size: 1.1em; margin-block-start: 0.4em; }
-
+.albumName, .statsDetail { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
 .chartTable2 { display: flex; flex-direction: column; margin: auto; width: 88%; background: white; }
-
 .chartEntry2 { display: flex; flex-direction: row; }
-
 .chartEntry2:not(:last-of-type) { border-bottom: 1px solid #eee; }
-
 .chartEntry2 .albumRank, .chartEntry2 .albumLink { flex: 0 0 75px; display: flex; align-items: center; justify-content: center; background: black; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
-
 .chartEntry2 .albumName { flex: 999; margin-top: auto; margin-bottom: auto; }
-
 .chartEntry2 .albumName h3 { margin: 1em; }
