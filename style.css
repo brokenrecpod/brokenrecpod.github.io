@@ -27,8 +27,8 @@ h4 { font-weight: 400; font-size: 1.1em; margin-block-start: 0.4em; }
 .statsInfoLong { flex: 0 0 250px; }
 .albumImage img, .statsInfoShort img { width: 100%; }
 .statsRank { font-size: 1.5em; }
-.statsDetail { margin-top: 1em; margin-bottom: 1.5em; margin-left: 1em; }
 .albumName, .statsDetail { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
+.statsDetail { margin-top: 1em; margin-bottom: 1.5em; margin-left: 1em; }
 .chartTable2 { display: flex; flex-direction: column; margin: auto; width: 88%; background: white; }
 .chartEntry2 { display: flex; flex-direction: row; }
 .chartEntry2:not(:last-of-type) { border-bottom: 1px solid #eee; }
