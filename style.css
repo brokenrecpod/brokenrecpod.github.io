@@ -14,7 +14,7 @@ h4 { font-weight: 400; font-size: 1.1em; margin-block-start: 0.4em; }
 .menuItem a { color: white; text-decoration: none; }
 .menuItem a:hover { font-weight: bold; }
 .contents { width: 88%; }
-.contents a:not(:last-of-type):after { content: ""; border-right: 1px solid black; margin-left: 0.5em; margin-right: 0.5em; }
+.contents a:not(:last-child):after { content: ""; border-right: 1px solid black; margin-left: 0.5em; margin-right: 0.5em; }
 
 /* TABLE STYLING */
 
