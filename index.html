@@ -28,40 +28,27 @@
       
       <h2 style="margin-bottom:1em; text-align:left">Current Number 1:</h2>
 
-      <div class="singleAlbum" onclick="openModal();currentSlide(1)" class="hover-shadow">
-        <div class="singleImage">
-            <img src="my-teenage-dream-ended.jpg" alt="The cover of My Teenage Dream Ended by Farrah Abraham"/>
-        </div>
-        <div class="singleDetails">
-            <h3>My Teenage Dream Ended</h3>
-            <h4>by Farrah Abraham (2012)</h4>
-        </div>
+      <div class="chartEntry" style="background:white;" onclick="openModal();currentSlide(1)" class="hover-shadow">
+        <div class="albumRank">1</div>
+        <div class="albumImage" style="flex: 0 0 250px;"><img src="my-teenage-dream-ended.jpg"/></div>
+        <div class="albumName"><h3>My Teenage Dream Ended</h3><h4>by Farrah Abraham (2012)</h4></div>
+        <div class="albumLink">+</div>
       </div>
-
-
-
-
-
-        <div class="chartEntry" style="background:white;" onclick="openModal();currentSlide(1)" class="hover-shadow">
-            <div class="albumRank">1</div>
-            <div class="albumImage" style="flex: 0 0 250px;"><img src="my-teenage-dream-ended.jpg"/></div>
-            <div class="albumName"><h3>My Teenage Dream Ended</h3><h4>by Farrah Abraham (2012)</h4></div>
-            <div class="albumLink">+</div>
-        </div>
-
-        <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-                <div class="mySlides">
-                    <table width="100%">
-                        <tr>
-                            <td width="25%"><img src="my-teenage-dream-ended.jpg"/></td>
-                            <td width="75%"><h3>My Teenage Dream Ended</h3><h4>by Farrah Abraham (2012)</h4></td>
-                        </tr>
-                    </table>
-                </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides">
+              <table width="100%">
+                <tr>
+                  <td width="25%"><img src="my-teenage-dream-ended.jpg"/></td>
+                  <td width="75%"><h3>My Teenage Dream Ended</h3><h4>by Farrah Abraham (2012)</h4></td>
+                </tr>
+              </table>
             </div>
+          </div>
         </div>
+    </div>
 
         <script>
             function openModal() {
