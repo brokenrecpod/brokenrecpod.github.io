@@ -1,3 +1,16 @@
+.accordion .albumHeading { display: flex; flex-direction: row; }
+
+.accordion .albumRank { flex: 0 0 100px; display: flex; align-items: center; justify-content: center; background: #222222; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
+
+.accordion .albumCover { display: flex; flex: 0 0 150px; align-items: center; justify-content: center; }
+
+.accordion .albumCover img { width: 100%; }
+
+.accordion .albumInfo { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
+
+.accordion-button { padding: 0 !important; }
+
+
 /* GENERAL STYLING */
 body { background: #eee; margin: 0; font-family: "Lexend Deca"; color: #222222; }
 .main { padding: 4em; }
