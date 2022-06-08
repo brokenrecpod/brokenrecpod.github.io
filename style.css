@@ -10,6 +10,8 @@
 
 .accordion-button { padding: 0 !important; }
 
+.accordion-button:focus { border: none !important; }
+
 
 /* GENERAL STYLING */
 body { background: #eee; margin: 0; font-family: "Lexend Deca"; color: #222222; }
