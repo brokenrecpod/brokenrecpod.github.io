@@ -1,4 +1,4 @@
-.accordion-item { border-bottom: 1px solid #eee; }
+.accordion-item { border-bottom: 1px solid #eee !important }
 
 .accordion .albumHeading { display: flex; flex-direction: row; }
 
