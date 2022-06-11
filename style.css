@@ -9,11 +9,14 @@
 .accordion .albumCover img { width: 100%; }
 
 .accordion .albumInfo { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
-.accordion .albumInfo2 { flex: 999; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
 
 .accordion-button { padding: 0 !important; }
 
 .accordion-button:focus { border: none !important; box-shadow: none !important; }
+
+
+.accordion .albumHeading2 { display: flex; flex-direction: column; margin: auto; width: 88%; background: white; }
+.accordion .albumInfo2 { display: flex; flex-direction: row; }
 
 
 /* GENERAL STYLING */
