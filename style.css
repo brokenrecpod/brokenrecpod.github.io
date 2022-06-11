@@ -9,6 +9,7 @@
 .accordion .albumCover img { width: 100%; }
 
 .accordion .albumInfo { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
+.accordion .albumInfo2 { flex: 999; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
 
 .accordion-button { padding: 0 !important; }
 
