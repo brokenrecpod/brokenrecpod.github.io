@@ -15,8 +15,8 @@
 .accordion-button:focus { border: none !important; box-shadow: none !important; }
 
 
-.accordion .albumHeading2 { display: flex; flex-direction: row; margin: auto; width: 88%; background: white; }
-.accordion .albumInfo2 { display: flex; flex-direction: row; }
+.accordion .albumHeading2 { display: flex; flex-direction: row; margin: auto; width: 100%; background: white; }
+.accordion .albumInfo2 { display: flex; flex-direction: row; padding-top: 25px; padding-bottom: 25px; margin-left: 10px; }
 
 
 /* GENERAL STYLING */
