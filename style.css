@@ -1,22 +1,22 @@
 .accordion-item { border-bottom: 1px solid #eee !important }
 
-.accordion .albumHeading { display: flex; flex-direction: row; }
+.accordion-item .albumHeading { display: flex; flex-direction: row;  width: 100%; background: white; }
+.accordion-item .albumHeading2 { display: flex; flex-direction: row; margin: auto; width: 100%; background: white; }
 
-.accordion .albumRank { flex: 0 0 100px; display: flex; align-items: center; justify-content: center; background: #222222; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
+.accordion-item .albumRank { flex: 0 0 100px; display: flex; align-items: center; justify-content: center; background: #222222; color: white; border-right: 1px solid #eee; font-weight: 800; font-size: 2em; }
 
-.accordion .albumCover { display: flex; flex: 0 0 150px; align-items: center; justify-content: center; }
+.accordion-item .albumCover { display: flex; flex: 0 0 150px; align-items: center; justify-content: center; }
 
-.accordion .albumCover img { width: 100%; }
+.accordion-item .albumCover img { width: 100%; }
 
-.accordion .albumInfo { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
+.accordion-item .albumInfo { flex: 6; margin-left: 1em; margin-top: auto; margin-bottom: auto; }
+.accordion-item .albumInfo2 { display: flex; flex-direction: row; padding-top: 25px; padding-bottom: 25px; margin-left: 10px; }
 
 .accordion-button { padding: 0 !important; }
 
 .accordion-button:focus { border: none !important; box-shadow: none !important; }
 
 
-.accordion .albumHeading2 { display: flex; flex-direction: row; margin: auto; width: 100%; background: white; }
-.accordion .albumInfo2 { display: flex; flex-direction: row; padding-top: 25px; padding-bottom: 25px; margin-left: 10px; }
 
 
 /* GENERAL STYLING */
