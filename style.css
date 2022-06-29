@@ -17,6 +17,8 @@ button[aria-expanded="false"] .albumHeading, button[aria-expanded="false"] .albu
 
 .accordion-button:focus { border: none !important; box-shadow: none !important; }
 
+.accordion-body { font-size: 1.2em; }
+
 
 
 
