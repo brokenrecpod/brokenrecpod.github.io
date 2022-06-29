@@ -19,6 +19,8 @@ button[aria-expanded="false"] .albumHeading, button[aria-expanded="false"] .albu
 
 .accordion-body { font-size: 1.2em; }
 
+.fa-solid { padding-right: 0.25em; }
+
 
 
 
